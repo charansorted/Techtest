@@ -3,7 +3,7 @@ const { test, expect } = require("@playwright/test");
 const URL = "https://vivifyvenues.com/"; // Replace 'https://example.com' with the actual URL of Vivify website
 const POSTCODE = "LA3 1AB";
 const REQUIRED_TEXT = "Lancaster Royal Grammar School";
-
+//Bug=jira007
 test("is image loaded", async ({ page }) => {
   try {
     test.slow();
