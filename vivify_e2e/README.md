@@ -15,6 +15,7 @@ Annotate critical journey tests as Smoke tests and introduce them into AWS relea
 # Testing New Changes
 # Test cases
 Create a booking
+Create a booking for a timeslot using different sessions
 Create a block booking
 Create different booking type 
 Verify various booking reoccurence options
@@ -22,7 +23,7 @@ Confirm a booking
 Alter a booking
 Cancel/discard a booking
 Validate different booking statuses - Reserved, Confirmed, Payment Declined/Failed , Payment refund
-Create and cofirm a booking for a particular time and verify that the timeslot isn't available for another booking for a given venue
+Create and confirm a booking for a particular time and verify that the timeslot isn't available for another booking for a given venue
 Cancel a confirmed booking and verify that the timeslot is showing up as available
 Alter time zones(Summer/Winter time) and investigate time slot behaviour
 
@@ -33,5 +34,6 @@ Alter time zones(Summer/Winter time) and investigate time slot behaviour
 ![Alt text](<Screenshot 2023-11-26 at 19.31.33.png>) - When a slot is removed by clicking remove all button, reserved available slots value is presented as 1 to the user
 ![Alt text](<Screen Shot 2023-11-26 at 19.35.18 pm.png>)- Spinner keeps spinning ages and timesout
 ![Alt text](<Screen Shot 2023-11-26 at 19.35.41 pm.png>) - Another status code : 500 exception caught whilst testing, unfortunately my network wasn't opened
+I was also seeing some intermittent status code : 404 when i was trying to remove a available time slot and also whilst trying to discard a timeslot 
 
 
