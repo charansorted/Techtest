@@ -2,6 +2,9 @@
 npm i to install node modules
 npx playwright test to run tests
 
+# Cross browser or device testing config location
+Please uncomment browser config in playwright.config should you wish to run against firefox browser
+
 # Future Enhancements
 Follow page object design pattern so that the  pages are divided into respective classes so it is easy to maintain and develop further 
 Assert every primary and secondary elements on the page
